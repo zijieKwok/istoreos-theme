@@ -36,12 +36,12 @@ jobs:
       run: |
 
         
-        rm -rf ./theme
+        rm -rf ./third
         rm -rf ./linkease/*
 
         git clone https://github.com/jjm2473/openwrt-third ./third
-        mv ./third/theme/ ./theme/
-        rm -rf ./third/theme/
+        mv ./third/* ./
+        rm -rf ./third/
 
         git clone https://github.com/linkease/nas-packages-luci ./linkease/nas-packages-luci
         mv ./linkease/nas-packages-luci/luci ./linkease/
