@@ -1,4 +1,4 @@
-name: update.istoreos-nas-packages
+name: Auto.update.istoreos-nas-packages
 
 on: 
   repository_dispatch:
@@ -39,8 +39,8 @@ jobs:
         rm -rf ./theme/*
         rm -rf ./linkease/*
 
-        git clone --depth=1 https://github.com/jjm2473/openwrt-third.git ./openwrt-third
-        mv ./theme/openwrt-third ./theme
+        git clone --depth=1 https://github.com/jjm2473/openwrt-third.git ./theme/openwrt-third
+        mv ./theme/openwrt-third ./theme/
         rm -rf ./theme/openwrt-third
 
         git clone https://github.com/linkease/nas-packages-luci ./linkease/nas-packages-luci
