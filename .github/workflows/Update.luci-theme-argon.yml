@@ -40,9 +40,9 @@ jobs:
         
         
          
-        # git clone https://github.com/Jaykwok2999/istoreos-ipk.git ./pass
-        # mv ./pass/theme/luci-theme-argon ./luci-theme-argon
-        # rm -rf ./pass
+        git clone https://github.com/Jaykwok2999/istoreos-ipk.git ./pass
+        mv ./pass/theme/luci-theme-argon ./luci-theme-argon
+        rm -rf ./pass
         
 
         
