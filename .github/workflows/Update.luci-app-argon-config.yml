@@ -39,7 +39,7 @@ jobs:
         
          
         git clone https://github.com/sbwml/luci-theme-argon.git ./pass
-        mv ./pass/luci-app-argon-config/luci-app-argon-config ./luci-app-argon-config
+        mv ./pass/luci-theme-argon/luci-app-argon-config ./luci-app-argon-config
         rm -rf ./pass
         
         
